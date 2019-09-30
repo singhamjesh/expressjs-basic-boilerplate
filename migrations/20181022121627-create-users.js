@@ -6,7 +6,7 @@ module.exports = {
 			allowNull: false,
 			autoIncrement: true,
 			primaryKey: true,
-			type: Sequelize.INTEGER,
+			type: Sequelize.NUMERIC,
 		},
 		name: {
 			type: Sequelize.STRING,
@@ -42,7 +42,7 @@ module.exports = {
 			type: Sequelize.DATE,
 		},
 		role_id: {
-			type: Sequelize.INTEGER,
+			type: Sequelize.int,
 			onDelete: 'NO ACTION',
 			references: {
 				model: 'Roles',

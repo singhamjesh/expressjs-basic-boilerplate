@@ -5,7 +5,7 @@ module.exports = {
 			allowNull: false,
 			autoIncrement: true,
 			primaryKey: true,
-			type: Sequelize.INTEGER,
+			type: Sequelize.NUMERIC,
 		},
 		permissionName: {
 			type: Sequelize.STRING,
