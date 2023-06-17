@@ -1,3 +1,10 @@
- # Node Js Project Structure
+ # Express.js boilerplate
  
-my first node program 
+ Express.js
+ Sequelize
+ Winston
+ Swagger
+ Sendgrid
+ 
+ 
+
